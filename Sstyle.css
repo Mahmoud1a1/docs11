@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    font-family: 'Cairo';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#35254A;
+    color: white;
+    border-top: solid crimson 5px;
+    position: fixed;
+    width: 100%;
+}
+
+header a{
+    color: white;
+    margin-right: 10PX;
+    text-decoration: none;
+    font-size: 15px;
+    transition: ease 1s;
+}
+
+header a:hover {
+    color: #3C8DBC ;
+    font-size: 18px;
+}
+
+header h2{
+    font-size: 23px;
+    padding: 10px;
+}
+
+.C1{
+    display: flex;
+    align-items: center;
+   height: 100vh;
+  
+    background-image: url(IMGC/SS.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .4);
+    
+
+}
+.C1 div{
+margin-left: 750px;
+
+}
+
+.C1 a{
+  
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 300px;
+    display: inline-block;
+    border-radius: 10PX;
+    margin-bottom: 10PX;
+    transition: ease 1s;
+}
+.C1 span{
+    margin-left: 40px;
+    color: white;
+}
+.C1 p{
+    margin-bottom: 25px;
+    margin-right: 50PX;
+}
+.C1 a:hover{
+font-size: 20px;
+background-color: #3C8DBC;
+}
+
+.Service h2{
+text-align: center;
+margin: 30PX 0PX;
+
+}
+
+.Service .Container{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 80px;
+}
+
+.Service .Card{
+    margin-right: 30px;
+    width: 18em;
+    margin-bottom: 40px;
+   text-align: center;
+   box-shadow: 3px 3px 6px 6px #ccc;
+   padding: 10px;
+   border: none;
+ 
+
+}
+.Service h3{
+    color: crimson;
+    font-weight: 1000;
+}
+
+.Service .Card > div{
+    color: #35254A;
+    font-size: 50px;
+}
+
+
+p{
+   
+    font-weight: 800;
+}
+
+
+.Portofilio{
+    padding: 30PX 100PX;
+    text-align: center;
+    align-items: center;
+    background-color: #35254A;
+}
+
+.Portofilio H2{
+    color: white;
+    border-bottom: solid crimson;
+    display: inline-block;
+    margin-bottom: 30PX;
+}
+.Portofilio .Container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Container1 .Card{
+    background-color: white;
+    border: solid;
+    border-radius: 20PX;
+    margin-right: 20PX;
+   
+    padding-bottom: 5PX;
+    width: 30%;
+    margin-bottom: 20PX;
+    overflow: hidden;
+    min-height: 300px;
+
+
+
+  
+    
+
+    }
+    .Card BUTTON{
+        background-color: #173e55;
+        color: white;
+        border-radius: 10PX;
+        padding: 0PX 5PX;
+    }
+
+   .Portofilio .Card_desc{
+    margin: 0px 10px;
+   }
+   .Portofilio img{
+    height: 12EM;
+    width: 100%;
+    
+}
+
+.Notilla {
+    padding: 50px 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+.Notilla .Notilla-desc{
+    width: 60%;
+    text-align: center;
+}
+
+.Notilla .Notilla-image{
+    width: 40%;
+   margin-right: 20px;
+   border-radius: 15px;
+   box-shadow: 0px 0px 2px rgb(0 0 0/40%);
+   overflow: hidden;
+}
+
+.Notilla .Notilla-image img{
+    width: 100%;
+    
+}
